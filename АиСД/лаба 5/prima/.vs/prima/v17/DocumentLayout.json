@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\\u043B\u0430\u0431\u0430 5\\prima\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01D69225-6F4C-4E6D-B4BE-2DA962FF0364}|prima.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\\u043B\u0430\u0431\u0430 5\\prima\\prima.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01D69225-6F4C-4E6D-B4BE-2DA962FF0364}|prima.vcxproj|solutionrelative:prima.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "prima.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\\u043B\u0430\u0431\u0430 5\\prima\\prima.cpp",
+              "RelativeDocumentMoniker": "prima.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\\u043B\u0430\u0431\u0430 5\\prima\\prima.cpp",
+              "RelativeToolTip": "prima.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-16T08:25:44.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

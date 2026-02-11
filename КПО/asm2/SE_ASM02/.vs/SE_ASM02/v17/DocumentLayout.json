@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\poteha\\kpo\\asm2\\SE_ASM02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8400BF35-6A22-413E-8FC1-5C267AF58F20}|SE_ASM02\\SE_ASM02.vcxproj|D:\\poteha\\kpo\\asm2\\SE_ASM02\\SE_ASM02\\SE_ASM02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8400BF35-6A22-413E-8FC1-5C267AF58F20}|SE_ASM02\\SE_ASM02.vcxproj|solutionrelative:SE_ASM02\\SE_ASM02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SE_ASM02.cpp",
+              "DocumentMoniker": "D:\\poteha\\kpo\\asm2\\SE_ASM02\\SE_ASM02\\SE_ASM02.cpp",
+              "RelativeDocumentMoniker": "SE_ASM02\\SE_ASM02.cpp",
+              "ToolTip": "D:\\poteha\\kpo\\asm2\\SE_ASM02\\SE_ASM02\\SE_ASM02.cpp",
+              "RelativeToolTip": "SE_ASM02\\SE_ASM02.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T15:25:29.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

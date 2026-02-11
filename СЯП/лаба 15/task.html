@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №15</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <form id="validateForm">
+        <h3>Заполните форму:</h3>
+        <label for="surname">Фамилия</label>
+        <input type="text" id="surname" name="surname" required>
+        <div class="error-message" id="surname-error"></div>
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" required>
+        <div class="error-message" id="name-error"></div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <div class="error-message" id="email-error"></div>
+        <label for="phone">Телефон</label>
+        <input type="text" id="phone" name="phone" required>
+        <div class="error-message" id="phone-error"></div>
+        <label for="city">Город</label>
+        <select id="city" name="city" required>
+            <option value="Minsk">Минск</option>
+            <option value="Brest">Брест</option>
+            <option value="Vitebsk">Витебск</option>
+            <option value="Gomel">Гомель</option>
+            <option value="Grodno">Гродно</option>
+            <option value="Mogilev">Могилёв</option>
+        </select>
+        <div class="checkContainer">
+            <label for="university">Я учусь в БГТУ</label>
+            <input type="checkbox" id="university" name="university">
+            <div class="error-message" id="university-error"></div>
+        </div>
+        <div class="radioContainer">
+            <label>На каком курсе вы учитесь?</label>
+            <label><input type="radio" name="course" value="1" required>1</label>
+            <label><input type="radio" name="course" value="2">2</label>
+            <label><input type="radio" name="course" value="3">3</label>
+            <label><input type="radio" name="course" value="4">4</label>
+        </div>
+        <label for="aboutInfo">Расскажите о себе</label>
+        <textarea id="about" name="about" rows="4" required></textarea>
+        <div class="error-message" id="about-error"></div>
+        <button type="submit">Проверить</button>
+    </form>
+    <script src="task.js"></script>
+</body>
+</html>

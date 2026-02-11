@@ -1,0 +1,14 @@
+D:\лабы по ООП\lab1\oop lab1\zad6\bin\Debug\zad6.exe.config
+D:\лабы по ООП\lab1\oop lab1\zad6\bin\Debug\zad6.exe
+D:\лабы по ООП\lab1\oop lab1\zad6\bin\Debug\zad6.pdb
+D:\лабы по ООП\lab1\oop lab1\zad6\obj\Debug\zad6.csproj.AssemblyReference.cache
+D:\лабы по ООП\lab1\oop lab1\zad6\obj\Debug\zad6.csproj.CoreCompileInputs.cache
+D:\лабы по ООП\lab1\oop lab1\zad6\obj\Debug\zad6.exe
+D:\лабы по ООП\lab1\oop lab1\zad6\obj\Debug\zad6.pdb
+D:\лабы\3 семестр\ООП\oop lab1\zad6\bin\Debug\zad6.exe.config
+D:\лабы\3 семестр\ООП\oop lab1\zad6\bin\Debug\zad6.exe
+D:\лабы\3 семестр\ООП\oop lab1\zad6\bin\Debug\zad6.pdb
+D:\лабы\3 семестр\ООП\oop lab1\zad6\obj\Debug\zad6.csproj.AssemblyReference.cache
+D:\лабы\3 семестр\ООП\oop lab1\zad6\obj\Debug\zad6.csproj.CoreCompileInputs.cache
+D:\лабы\3 семестр\ООП\oop lab1\zad6\obj\Debug\zad6.exe
+D:\лабы\3 семестр\ООП\oop lab1\zad6\obj\Debug\zad6.pdb

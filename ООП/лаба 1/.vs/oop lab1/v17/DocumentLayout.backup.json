@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3010379-228E-4A08-976D-B5FC0B49962A}|zad6\\zad6.csproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad6\\zad6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3010379-228E-4A08-976D-B5FC0B49962A}|zad6\\zad6.csproj|solutionrelative:zad6\\zad6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B141885-3C3D-43A5-A561-8B011EA6BB9D}|zad5\\zad5.csproj|d:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043E\u043E\u043F\\oop lab1\\zad5\\zad5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B141885-3C3D-43A5-A561-8B011EA6BB9D}|zad5\\zad5.csproj|solutionrelative:zad5\\zad5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BDB5C1-5631-4A38-885F-4220265E7594}|zad4\\zad4.csproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad4\\zad4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12BDB5C1-5631-4A38-885F-4220265E7594}|zad4\\zad4.csproj|solutionrelative:zad4\\zad4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5D2D17-A60C-4FF5-ACAA-435C25CFB703}|zad3\\zad3.csproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad3\\zad3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5D2D17-A60C-4FF5-ACAA-435C25CFB703}|zad3\\zad3.csproj|solutionrelative:zad3\\zad3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83A91D4-2166-47AE-8CF2-DEEF20B10C54}|zad2\\zad2.csproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad2\\zad2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83A91D4-2166-47AE-8CF2-DEEF20B10C54}|zad2\\zad2.csproj|solutionrelative:zad2\\zad2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42459F59-454D-4D2A-A42D-6CA8B5D1E358}|oop lab1\\oop lab1.csproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\oop lab1\\zad1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42459F59-454D-4D2A-A42D-6CA8B5D1E358}|oop lab1\\oop lab1.csproj|solutionrelative:oop lab1\\zad1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zad6.cs",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad6\\zad6.cs",
+              "RelativeDocumentMoniker": "zad6\\zad6.cs",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad6\\zad6.cs",
+              "RelativeToolTip": "zad6\\zad6.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:54:40.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "zad5.cs",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad5\\zad5.cs",
+              "RelativeDocumentMoniker": "zad5\\zad5.cs",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad5\\zad5.cs",
+              "RelativeToolTip": "zad5\\zad5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:43:33.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "zad4.cs",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad4\\zad4.cs",
+              "RelativeDocumentMoniker": "zad4\\zad4.cs",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad4\\zad4.cs",
+              "RelativeToolTip": "zad4\\zad4.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:24:02.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "zad3.cs",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad3\\zad3.cs",
+              "RelativeDocumentMoniker": "zad3\\zad3.cs",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad3\\zad3.cs",
+              "RelativeToolTip": "zad3\\zad3.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:18:35.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "zad2.cs",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad2\\zad2.cs",
+              "RelativeDocumentMoniker": "zad2\\zad2.cs",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\zad2\\zad2.cs",
+              "RelativeToolTip": "zad2\\zad2.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwDUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:07:18.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "zad1.cs",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\oop lab1\\zad1.cs",
+              "RelativeDocumentMoniker": "oop lab1\\zad1.cs",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u041E\u041F\\oop lab1\\oop lab1\\zad1.cs",
+              "RelativeToolTip": "oop lab1\\zad1.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:53:25.33Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

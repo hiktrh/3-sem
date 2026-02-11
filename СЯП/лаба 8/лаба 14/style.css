@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 3px solid black; 
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+input {
+  width: 84%;
+  height: 90%;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
+
+.error {
+  background-color: #ff3737; 
+}
+
+.success {
+  background-color: #dbee90;
+}
+
+
+tr:nth-child(3n) td {
+  border-bottom: 2px solid black; 
+} 
+td:nth-child(3n) { 
+  border-right: 2px solid black; 
+}

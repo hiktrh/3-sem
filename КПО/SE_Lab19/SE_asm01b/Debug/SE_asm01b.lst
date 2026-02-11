@@ -1,0 +1,278 @@
+Microsoft (R) Macro Assembler Version 14.41.34120.0	    12/18/25 18:59:59
+SE_asm01b.asm						     Page 1 - 1
+
+
+				.586P                                                               
+				.MODEL FLAT, STDCALL                                                
+				includelib ucrt.lib                                                 
+				includelib kernel32.lib                                             
+				includelib "..\Debug\SE_asm01a.lib"
+
+				ExitProcess         PROTO   : DWORD                                         
+				system              PROTO C : DWORD                                         
+				GetStdHandle        PROTO   : DWORD                                         
+				printConsole        PROTO : DWORD, : DWORD                                  
+				                                                                            
+				WriteConsoleA       PROTO   : DWORD, : DWORD, : DWORD, : DWORD, : DWORD     
+				SetConsoleTitleA    PROTO   : DWORD                                     
+
+				getmin      PROTO : DWORD, : DWORD
+				getmax      PROTO : DWORD, : DWORD
+
+				SetConsoleOutputCP  PROTO : DWORD                                   
+				                                                                    
+				SetConsoleCP PROTO : DWORD                                          
+
+
+				.STACK 4096                                                         
+
+ 00000000			.CONST                                                              
+ = 0000000A			endl        equ 0ah                                                 
+ 00000000 0A 00			str_endl    byte endl, 0                                            
+ 00000002 70 61 75 73 65	str_pause   db 'pause', 0
+	   00
+ 00000008  00000028 [		zero        byte 40 dup(0)
+	    00
+	   ]
+
+
+ 00000000			.DATA                                                           
+ 00000000 FFFFFFFB		Array           SDWORD   -5, 5, 23, -1, 25, 8, -4, 22, 9, 0 
+	   00000005
+	   00000017
+	   FFFFFFFF
+	   00000019
+	   00000008
+	   FFFFFFFC
+	   00000016
+	   00000009
+	   00000000
+ 00000028 C7 E0 E4 E0 ED	consoleTitle    BYTE    'Задание 3',0           
+	   E8 E5 20 33 00
+ 00000032 C7 E0 E4 E0 F7	text            BYTE     "Задача : getmax + getmin = ", 0
+	   E0 20 3A 20 67
+	   65 74 6D 61 78
+	   20 2B 20 67 65
+	   74 6D 69 6E 20
+	   3D 20 00
+ 0000004E  00000028 [		string          BYTE     40 dup(0)
+	    00
+	   ]
+ 00000076 CC E8 ED E8 EC	min_string      BYTE    "Минимальное значение = ", 0
+	   E0 EB FC ED EE
+	   E5 20 E7 ED E0
+	   F7 E5 ED E8 E5
+	   20 3D 20 00
+ 0000008E  00000028 [		min_str         BYTE     40 dup(0)
+	    00
+	   ]
+ 000000B6 CC E0 EA F1 E8	max_string      BYTE    "Максимальное значение = ", 0
+	   EC E0 EB FC ED
+	   EE E5 20 E7 ED
+	   E0 F7 E5 ED E8
+	   E5 20 3D 20 00
+ 000000CF  00000028 [		max_str         BYTE     40 dup(0)
+	    00
+	   ]
+
+ 000000F7 00000000		messageSize     DWORD   ?
+ 000000FB 00000000		min             SDWORD  ?
+ 000000FF 00000000		max             SDWORD  ?
+ 00000103 00000000		result          SDWORD  ?
+
+
+ 00000107 00000000		consolehandle   DWORD 0h                                            
+
+ 00000000			.CODE                                                               
+
+				; Функция для очистки строки
+ 00000000			clear_string PROC uses edi ecx,
+				                    pstr    : dword
+ 00000005  8B 7D 08		    mov edi, pstr
+ 00000008  B9 00000028		    mov ecx, 40
+ 0000000D  B0 00		    mov al, 0
+ 0000000F  F3/ AA		    rep stosb
+				    ret
+ 00000017			clear_string ENDP
+
+ 00000017			int_to_char PROC uses eax ebx ecx edi esi,
+				                    pstr        : dword, 
+				                    intfield    : sdword 
+				    ; Сначала очищаем строку
+				    INVOKE clear_string, pstr
+				    
+ 00000027  8B 7D 08		    mov edi, pstr            
+ 0000002A  8B 45 0C		    mov eax, intfield        
+ 0000002D  33 F6		    xor esi, esi             
+ 0000002F  BB 0000000A		    mov ebx, 10              
+
+ 00000034  85 C0		    test eax, eax              
+ 00000036  7D 06		    jge skip_neg               
+ 00000038  C6 07 2D		    mov byte ptr [edi], '-'    
+ 0000003B  47			    inc edi                    
+ 0000003C  F7 D8		    neg eax                    
+ 0000003E			skip_neg:
+
+ 0000003E			convert_loop:
+ 0000003E  33 D2		    xor edx, edx              
+ 00000040  F7 F3		    div ebx                   
+ 00000042  66| 52		    push dx                   
+ 00000044  46			    inc esi                   
+ 00000045  85 C0		    test eax, eax             
+ 00000047  75 F5		    jnz convert_loop          
+
+ 00000049			write_loop:
+ 00000049  66| 5A		    pop dx                   
+ 0000004B  80 C2 30		    add dl, '0'              
+ 0000004E  88 17		    mov [edi], dl            
+ 00000050  47			    inc edi                  
+ 00000051  4E			    dec esi                  
+ 00000052  75 F5		    jnz write_loop           
+
+ 00000054  C6 07 00		    mov byte ptr [edi], 0    ; Добавляем завершающий нуль для строки
+				    ret                      
+ 00000060			int_to_char ENDP
+
+
+ 00000060			main PROC                                                           
+ 00000060			START :                                                             
+				        INVOKE SetConsoleOutputCP, 1251
+				        INVOKE SetConsoleCP, 1251
+				        
+				        ; Получаем минимальное значение
+				        INVOKE getmin, OFFSET Array, LENGTHOF Array                         
+ 00000080  A3 000000FB R	        mov min, eax
+				        INVOKE int_to_char, OFFSET min_str, min
+				        
+				        ; Выводим "Минимальное значение = " и само значение
+				        INVOKE printConsole, OFFSET min_string, OFFSET consoleTitle        
+				        INVOKE printConsole, OFFSET min_str, OFFSET consoleTitle        
+				        INVOKE printConsole, OFFSET str_endl, OFFSET consoleTitle
+				        
+				        ; Получаем максимальное значение
+				        INVOKE getmax, OFFSET Array, LENGTHOF Array                         
+ 000000CE  A3 000000FF R	        mov max, eax
+				        INVOKE int_to_char, OFFSET max_str, max
+				        
+				        ; Выводим "Максимальное значение = " и само значение
+				        INVOKE printConsole, OFFSET max_string, OFFSET consoleTitle        
+				        INVOKE printConsole, OFFSET max_str, OFFSET consoleTitle        
+				        INVOKE printConsole, OFFSET str_endl, OFFSET consoleTitle
+				        
+				        ; Вычисляем сумму
+ 00000110  A1 000000FF R	        mov eax, max
+ 00000115  03 05 000000FB R	        add eax, min                                                        
+ 0000011B  A3 00000103 R	        mov result, eax
+				        INVOKE int_to_char, OFFSET string, result
+				        
+				        ; Выводим "Задача : getmax + getmin = " и результат
+				        INVOKE printConsole, OFFSET text, OFFSET consoleTitle      
+				        INVOKE printConsole, OFFSET string, OFFSET consoleTitle
+				        INVOKE printConsole, OFFSET str_endl, OFFSET consoleTitle
+				        
+				        ; Пауза и выход
+ 0000015D  68 00000002 R	        push offset str_pause                                       
+ 00000162  E8 00000000 E	        call system                                                 
+ 00000167  6A FF		        push -1                                                    
+ 00000169  E8 00000000 E	        call ExitProcess                                            
+
+
+ 0000016E			main ENDP                                                           
+ 0000016E			printConsole     PROC uses eax ebx ecx edi esi,
+				                        pstr    : dword,
+				                        ptitle  : dword
+
+				    INVOKE SetConsoleTitleA, ptitle
+				    INVOKE GetStdHandle, -11
+ 00000185  8B 75 08		    mov esi, pstr                                       
+ 00000188  BF FFFFFFFF		    mov edi, -1                                         
+ 0000018D			count:                                                  
+ 0000018D  47			    inc edi                                             
+ 0000018E  80 3C 3E 00		    cmp byte ptr [esi+edi], 0
+ 00000192  75 F9		    jne count                                           
+
+				    INVOKE WriteConsoleA, eax, pstr, edi, 0, 0          
+
+				    ret
+ 000001AB			printConsole ENDP
+
+				end main
+Microsoft (R) Macro Assembler Version 14.41.34120.0	    12/18/25 18:59:59
+SE_asm01b.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000030 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000010B Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 000001AB Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+GetStdHandle . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleCP . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleOutputCP . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleTitleA . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+WriteConsoleA  . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+clear_string . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000017 Public STDCALL
+  pstr . . . . . . . . . . . . .	DWord	 bp + 00000008
+getmax . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+getmin . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+int_to_char  . . . . . . . . . .	P Near	 00000017 _TEXT	Length= 00000049 Public STDCALL
+  pstr . . . . . . . . . . . . .	DWord	 bp + 00000008
+  intfield . . . . . . . . . . .	DWord	 bp + 0000000C
+  skip_neg . . . . . . . . . . .	L Near	 0000003E _TEXT	
+  convert_loop . . . . . . . . .	L Near	 0000003E _TEXT	
+  write_loop . . . . . . . . . .	L Near	 00000049 _TEXT	
+main . . . . . . . . . . . . . .	P Near	 00000060 _TEXT	Length= 0000010E Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000060 _TEXT	
+printConsole . . . . . . . . . .	P Near	 0000016E _TEXT	Length= 0000003D Public STDCALL
+  pstr . . . . . . . . . . . . .	DWord	 bp + 00000008
+  ptitle . . . . . . . . . . . .	DWord	 bp + 0000000C
+  count  . . . . . . . . . . . .	L Near	 0000018D _TEXT	
+system . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Array  . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+consoleTitle . . . . . . . . . .	Byte	 00000028 _DATA	
+consolehandle  . . . . . . . . .	DWord	 00000107 _DATA	
+endl . . . . . . . . . . . . . .	Number	 0000000Ah   
+max_string . . . . . . . . . . .	Byte	 000000B6 _DATA	
+max_str  . . . . . . . . . . . .	Byte	 000000CF _DATA	
+max  . . . . . . . . . . . . . .	DWord	 000000FF _DATA	
+messageSize  . . . . . . . . . .	DWord	 000000F7 _DATA	
+min_string . . . . . . . . . . .	Byte	 00000076 _DATA	
+min_str  . . . . . . . . . . . .	Byte	 0000008E _DATA	
+min  . . . . . . . . . . . . . .	DWord	 000000FB _DATA	
+result . . . . . . . . . . . . .	DWord	 00000103 _DATA	
+str_endl . . . . . . . . . . . .	Byte	 00000000 CONST	
+str_pause  . . . . . . . . . . .	Byte	 00000002 CONST	
+string . . . . . . . . . . . . .	Byte	 0000004E _DATA	
+text . . . . . . . . . . . . . .	Byte	 00000032 _DATA	
+zero . . . . . . . . . . . . . .	Byte	 00000008 CONST	
+
+	   0 Warnings
+	   0 Errors

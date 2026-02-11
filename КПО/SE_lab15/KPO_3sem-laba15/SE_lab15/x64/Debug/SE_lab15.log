@@ -1,0 +1,10 @@
+﻿  Error.cpp
+  In.cpp
+  lab15.cpp
+D:\лабы\3 семестр\КПО\SE_lab15\KPO_3sem-laba15\SE_lab15\lab15.cpp(68,23): warning C4838: Преобразование из "int" в "short" требует сужающего преобразования.
+D:\лабы\3 семестр\КПО\SE_lab15\KPO_3sem-laba15\SE_lab15\lab15.cpp(68,38): warning C4838: Преобразование из "int" в "short" требует сужающего преобразования.
+  Log.cpp
+  Out.cpp
+  Parm.cpp
+  Создание кода...
+  SE_lab15.vcxproj -> D:\лабы\3 семестр\КПО\SE_lab15\KPO_3sem-laba15\x64\Debug\SE_lab15.exe

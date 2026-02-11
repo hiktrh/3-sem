@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{96692366-D09A-4198-B089-C4782601BCEE}|SE_Lab18\\SE_Lab18.vcxproj|solutionrelative:SE_Lab18\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Parm.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Parm.cpp",
+              "RelativeDocumentMoniker": "SE_Lab18\\Parm.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Parm.cpp",
+              "RelativeToolTip": "SE_Lab18\\Parm.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T15:41:26.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IT.h",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\IT.h",
+              "RelativeDocumentMoniker": "SE_Lab18\\IT.h",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\IT.h",
+              "RelativeToolTip": "SE_Lab18\\IT.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T15:41:26.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MFST.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\MFST.cpp",
+              "RelativeDocumentMoniker": "SE_Lab18\\MFST.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\MFST.cpp",
+              "RelativeToolTip": "SE_Lab18\\MFST.cpp",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T15:41:26.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MFST.h",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\MFST.h",
+              "RelativeDocumentMoniker": "SE_Lab18\\MFST.h",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\MFST.h",
+              "RelativeToolTip": "SE_Lab18\\MFST.h",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAADcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T15:41:26.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FST.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\FST.cpp",
+              "RelativeDocumentMoniker": "SE_Lab18\\FST.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\FST.cpp",
+              "RelativeToolTip": "SE_Lab18\\FST.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T15:41:26.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Out.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Out.cpp",
+              "RelativeDocumentMoniker": "SE_Lab18\\Out.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Out.cpp",
+              "RelativeToolTip": "SE_Lab18\\Out.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T15:41:26.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GRB.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\GRB.cpp",
+              "RelativeDocumentMoniker": "SE_Lab18\\GRB.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\GRB.cpp",
+              "RelativeToolTip": "SE_Lab18\\GRB.cpp",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T15:41:26.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Error.cpp",
+              "RelativeDocumentMoniker": "SE_Lab18\\Error.cpp",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Error.cpp",
+              "RelativeToolTip": "SE_Lab18\\Error.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T15:41:26.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Log.h",
+              "DocumentMoniker": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Log.h",
+              "RelativeDocumentMoniker": "SE_Lab18\\Log.h",
+              "ToolTip": "D:\\\u043B\u0430\u0431\u044B\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u041F\u041E\\SE_Lab18\\SE_Lab18\\Log.h",
+              "RelativeToolTip": "SE_Lab18\\Log.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T15:41:26.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

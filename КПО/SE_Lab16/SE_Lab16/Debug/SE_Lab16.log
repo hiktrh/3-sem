@@ -1,0 +1,5 @@
+﻿  FST.cpp
+D:\лабы\3 семестр\КПО\SE_Lab16\SE_Lab16\FST.cpp(72,23): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  SE_Lab16.cpp
+  Создание кода...
+  SE_Lab16.vcxproj -> D:\лабы\3 семестр\КПО\SE_Lab16\Debug\SE_Lab16.exe

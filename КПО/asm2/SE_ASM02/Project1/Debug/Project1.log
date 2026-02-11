@@ -1,0 +1,4 @@
+﻿  Assembling asm2.asm...
+  LINK : не найден или не выполнена сборка D:\poteha\kpo\asm2\SE_ASM02\Debug\Project1.exe при последней инкрементной компоновке; выполняется полная компоновка
+asm2.obj : warning LNK4258: директива "/ENTRY:main@0" несовместима с параметром "/ENTRY:main"; будет пропущена
+  Project1.vcxproj -> D:\poteha\kpo\asm2\SE_ASM02\Debug\Project1.exe

@@ -1,0 +1,7 @@
+﻿  Assembling asm04.asm...
+asm04.asm(1): error A2008: syntax error : .
+asm04.asm(2): error A2008: syntax error : .
+asm04.asm(5): error A2008: syntax error : .
+asm04.asm(17): error A2008: syntax error : main
+asm04.asm(17): error A2088: END directive required at end of file
+D:\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm04.obj" /W3 /errorReport:prompt  /Taasm04.asm" с кодом "1".

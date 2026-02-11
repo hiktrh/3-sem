@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        div {
+            margin-top: 15px;
+        }
+        #taskList {
+            margin: 20px 0;
+            padding: 0;
+        }
+        .taskItem {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .taskItem button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        .addButton, .filterButton {
+            background-color: rgb(132, 152, 181);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: none;
+            cursor:pointer;
+        }
+        .editButton {
+            background-color: rgb(198, 107, 163);
+            color: white;
+            cursor:pointer;
+        }
+        .deleteButton {
+            background-color: rgb(198, 107, 163);
+            color: white;
+            cursor:pointer;
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h1{
+            color: rgb(198, 107, 163);
+        }
+        body{
+             display: grid;
+             place-items: center;
+            background-color: #fafffb;
+             margin: 0;
+        }
+        .lol{
+             text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<div class="lol">
+    <h1>Список дел aesthetic cleangirl</h1>
+    <input type="text" id="taskName" placeholder="Введите название задачи">
+    <button class="addButton" onclick="addTask()">Добавить</button>
+
+    <div>
+        <button class="filterButton" onclick="filterTasks('all')">Показать все</button>
+        <button class="filterButton" onclick="filterTasks('completed')">Показать выполненные</button>
+        <button class="filterButton" onclick="filterTasks('not_completed')">Показать не выполненные</button>
+    </div>
+
+    <ul id="taskList"></ul>
+    </div>
+
+    <script src="lab11.js"></script>
+
+</body>
+</html>

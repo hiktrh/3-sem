@@ -1,0 +1,7 @@
+D:\лабы\3 семестр\ООП\ArmyClasses\bin\Debug\ArmyClasses.exe.config
+D:\лабы\3 семестр\ООП\ArmyClasses\bin\Debug\ArmyClasses.exe
+D:\лабы\3 семестр\ООП\ArmyClasses\bin\Debug\ArmyClasses.pdb
+D:\лабы\3 семестр\ООП\ArmyClasses\obj\Debug\ArmyClasses.csproj.AssemblyReference.cache
+D:\лабы\3 семестр\ООП\ArmyClasses\obj\Debug\ArmyClasses.csproj.CoreCompileInputs.cache
+D:\лабы\3 семестр\ООП\ArmyClasses\obj\Debug\ArmyClasses.exe
+D:\лабы\3 семестр\ООП\ArmyClasses\obj\Debug\ArmyClasses.pdb

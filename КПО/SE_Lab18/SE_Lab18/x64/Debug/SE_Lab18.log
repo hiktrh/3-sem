@@ -1,0 +1,207 @@
+﻿Сборка начата 26.11.2024 22:29:30.
+Уровень детализации журнала: Normal.     1>Проект "D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\SE_Lab18.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\x64\Debug\".
+         Создание каталога "x64\Debug\SE_Lab18.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_Lab18.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\SE_Lab18.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp FST.cpp GRB.cpp In.cpp IT.cpp LexemaAnalysis.cpp Log.cpp LT.cpp MFST.cpp Out.cpp Parm.cpp SE_Lab18.cpp
+         Error.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\Error.cpp(26,9): warning C4566: символ, представленный универсальным именем символа "\u0301", невозможно представить в текущей кодовой странице (1251)
+         FST.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\FST.cpp(83,23): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GRB.cpp
+         In.cpp
+         IT.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(82,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(102,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         LexemaAnalysis.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4305: =: усечение из "int" в "char"
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4309: =: усечение константного значения
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E2", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E3", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00B8", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E6", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E9", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F3", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F4", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F5", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F7", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F9", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FA", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FB", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FC", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FD", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FE", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E2", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E3", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00B8", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E6", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E9", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F3", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F4", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F5", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F7", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F9", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FA", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FB", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FC", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FD", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FE", невозможно представить в текущей кодовой странице (1251)
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\MFST.cpp(240,72): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Out.cpp
+         Parm.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\Parm.cpp(9,11): warning C4101: wst: неиспользованная локальная переменная
+         SE_Lab18.cpp
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\SE_Lab18.cpp(69,2): warning C4102: Log: неиспользованная метка
+         Создание кода...
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LT.cpp(28): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(165): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(204): warning C4172: возвращение адреса локальной или временной переменной : buffer
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\x64\Debug\SE_Lab18.exe" /INCREMENTAL /ILK:"x64\Debug\SE_Lab18.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\x64\Debug\SE_Lab18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\x64\Debug\SE_Lab18.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\GRB.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\LexemaAnalysis.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         x64\Debug\SE_Lab18.obj
+         SE_Lab18.vcxproj -> D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\x64\Debug\SE_Lab18.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SE_Lab18.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SE_Lab18.tlog\SE_Lab18.lastbuildstate".
+     1>Сборка проекта "D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\SE_Lab18.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\SE_Lab18.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\Error.cpp(26,9): warning C4566: символ, представленный универсальным именем символа "\u0301", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\FST.cpp(83,23): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(82,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(102,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4305: =: усечение из "int" в "char"
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4309: =: усечение константного значения
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E2", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E3", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00B8", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E6", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00E9", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F3", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F4", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F5", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F7", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00F9", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FA", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FB", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FC", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FD", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FE", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(266,28): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E2", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E3", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00B8", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E6", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00E9", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F3", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F4", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F5", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F7", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00F9", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FA", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FB", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FC", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FD", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FE", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(318,15): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\MFST.cpp(240,72): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\Parm.cpp(9,11): warning C4101: wst: неиспользованная локальная переменная
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\SE_Lab18.cpp(69,2): warning C4102: Log: неиспользованная метка
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\LT.cpp(28): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(165): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\study(3sem)\KPO\lab\lab_18\SE_Lab18\SE_Lab18\IT.cpp(204): warning C4172: возвращение адреса локальной или временной переменной : buffer
+
+    Предупреждений: 78
+    Ошибок: 0
+
+Прошло времени 00:00:06.21

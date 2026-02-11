@@ -1,0 +1,5 @@
+﻿  GRB.cpp
+  MFST.cpp
+D:\лабы\3 семестр\КПО\SE_Lab18\SE_Lab18\MFST.cpp(231,72): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  Создание кода...
+  SE_Lab18.vcxproj -> D:\лабы\3 семестр\КПО\SE_Lab18\Debug\SE_Lab18.exe

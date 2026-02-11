@@ -1,0 +1,13 @@
+﻿  FST.cpp
+D:\лабы\3 семестр\КПО\laba17\SE_Lab17\FST.cpp(81,23): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  IT.cpp
+  LT.cpp
+  Lexer.cpp
+D:\лабы\3 семестр\КПО\laba17\SE_Lab17\LT.h(32,21): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+  (компиляция исходного файла "Lexer.cpp")
+  
+  Log.cpp
+  Out.cpp
+  SE_Lab17.cpp
+  Создание кода...
+  SE_Lab17.vcxproj -> D:\лабы\3 семестр\КПО\laba17\x64\Debug\SE_Lab17.exe

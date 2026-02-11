@@ -1,0 +1,14 @@
+D:\лабы по ООП\lab1\oop lab1\oop lab1\bin\Debug\oop lab1.exe.config
+D:\лабы по ООП\lab1\oop lab1\oop lab1\bin\Debug\oop lab1.exe
+D:\лабы по ООП\lab1\oop lab1\oop lab1\bin\Debug\oop lab1.pdb
+D:\лабы по ООП\lab1\oop lab1\oop lab1\obj\Debug\oop lab1.csproj.AssemblyReference.cache
+D:\лабы по ООП\lab1\oop lab1\oop lab1\obj\Debug\oop lab1.csproj.CoreCompileInputs.cache
+D:\лабы по ООП\lab1\oop lab1\oop lab1\obj\Debug\oop lab1.exe
+D:\лабы по ООП\lab1\oop lab1\oop lab1\obj\Debug\oop lab1.pdb
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\bin\Debug\oop lab1.exe.config
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\bin\Debug\oop lab1.exe
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\bin\Debug\oop lab1.pdb
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\obj\Debug\oop lab1.csproj.AssemblyReference.cache
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\obj\Debug\oop lab1.csproj.CoreCompileInputs.cache
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\obj\Debug\oop lab1.exe
+D:\лабы\3 семестр\ООП\oop lab1\oop lab1\obj\Debug\oop lab1.pdb
